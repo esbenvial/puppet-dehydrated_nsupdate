@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 # acme dns-01 challenge hook script v0.0.2
 
@@ -49,8 +49,7 @@
 
 # Path to the directory where your nsupdate keys are stored (one for each domain,
 # named K_acme-challenge.domain.tld.+157+<...>.private)
-KEYPATH="/etc/letsencrypt.sh/nsupdate_keys"
-
+KEYPATH="/etc/letsencrypt/nsupdate_keys"
 # DNS Server to update
 SERVER="secdns.sc.ku.dk"
 
